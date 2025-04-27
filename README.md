@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <body>
-    <
-    <img src="https://github.com/user-attachments/assets/776a72f7-8d3d-4e1c-9a61-be9a4a63f6bf">
+# Operating Systems 🖥️
 
-    <p><a href="https://iconscout.com/lottie-animations/girl" class="text-underline font-size-sm" target="_blank">Girl Installing OS in Laptop</a> by <a href="https://iconscout.com/contributors/muhammad-yasir-ismail" class="text-underline font-size-sm">Yasir Ismail</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a>
+![OS Illustration](https://github.com/user-attachments/assets/500e9021-cd1a-4f86-921c-4b6063d67c23)
 
+---
 
+<div style="background: #f5f5f5; padding: 15px; border-left: 4px solid #0366d6; margin: 20px 0; border-radius: 4px;">
+  <strong>👨‍💻 Developer Notes:</strong><br>
+  This project explores fundamental operating system concepts i study in my University which include process scheduling, memory management, and file systems.
+</div>
 
-
-  </body>
-</html>
