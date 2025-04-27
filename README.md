@@ -1,11 +1,20 @@
-# Operating Systems 🖥️
+# Creating Folders & sub Folders
+<ol>
+  <li>Create a Simple Folder or Choose the location as ypu prefereed</li>
+   <li>Save the Code File as a .bat File in it</li>
+   <li>Double-Click to run the code</li>
+   <li>You will get the output where you located your .bat File</li>
+</ol>
 
-![OS Illustration](https://github.com/user-attachments/assets/500e9021-cd1a-4f86-921c-4b6063d67c23)
+# Output
+<ol>
+  <li><h3>Main Folders</h3><br></li>
+  <img src="https://github.com/user-attachments/assets/adbf2fdd-631f-4c16-832c-d7060c225f57">
+  <br><br>
+  <li><h3>Sub Folders inside each Main Folder</h3></li>
+  <img src="https://github.com/user-attachments/assets/81b0ef82-75ab-4c30-b513-41dec1dcc0f2">
+  
+</ol>
 
----
 
-<div style="background: #f5f5f5; padding: 15px; border-left: 4px solid #0366d6; margin: 20px 0; border-radius: 4px;">
-  <strong>👨‍💻 Developer Notes:</strong><br>
-  This project explores fundamental operating system concepts i study in my University which include process scheduling, memory management, and file systems.
-</div>
 
