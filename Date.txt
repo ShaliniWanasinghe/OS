@@ -1,0 +1,20 @@
+@echo off
+cls
+::outputs the Day
+
+echo %day%
+
+set /a year = %date:~10,4%
+set /a month = %date:~4,2%
+set /a day = %date:~7,2%
+set weekday= %date:~0,3%
+
+if %month% ==1 month=March
+
+echo Year %Year%
+echo month %month%
+echo Day %day%
+echo weekday %weekday%
+
+
+pause
