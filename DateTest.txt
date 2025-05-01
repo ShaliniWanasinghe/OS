@@ -1,0 +1,17 @@
+ 1)ls -a //files list
+
+ 2)ls -ltr //total files
+total 20
+
+
+3)date +%d //Today date number
+
+4)date +%y // this year ex:25
+
+5)date +%Y // this year: 2025
+
+6)date +%A //today day name
+
+7)date +%A%D //today as Dayname+fulldate(Monday24/04/2025)
+
+
