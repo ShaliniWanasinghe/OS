@@ -1,0 +1,201 @@
+@echo off
+echo username: %username%
+echo window version: %version%
+ver
+color E
+
+echo Day: %date%
+echo Time: %time%
+
+set\p Age = How old are you
+
+date
+time
+pause
+
+
+: command not found...
+[2021ict75@fedora ~]$ ' hellow '
+bash:  hellow : command not found...
+[2021ict75@fedora ~]$
+[2021ict75@fedora ~]$ who
+2021ict36 pts/0        2025-03-14 15:22 (172.16.140.36)
+2021ict59 pts/1        2025-03-14 15:04 (172.16.140.50)
+2021ict84 pts/2        2025-03-14 15:04 (172.16.140.62)
+2021ict122 pts/3        2025-03-14 15:04 (172.16.140.63)
+2021ict125 pts/4        2025-03-14 15:05 (172.16.140.74)
+2021ict71 pts/5        2025-03-14 15:05 (172.16.140.43)
+2021ict105 pts/6        2025-03-14 15:11 (172.16.140.9)
+2021ict37 pts/7        2025-03-14 15:05 (172.16.140.42)
+2021ict47 pts/8        2025-03-14 15:05 (172.16.140.92)
+2021ict116 pts/9        2025-03-14 15:22 (172.16.140.93)
+2021ict14 pts/10       2025-03-14 15:12 (172.16.140.32)
+2021ict67 pts/11       2025-03-14 15:05 (172.16.140.116)
+2021ict64 pts/12       2025-03-14 15:05 (172.16.140.46)
+2021ict54 pts/13       2025-03-14 15:10 (172.16.140.71)
+2021ict124 pts/14       2025-03-14 15:06 (172.16.140.76)
+2021ict09 pts/15       2025-03-14 15:06 (172.16.140.77)
+2021ict15 pts/16       2025-03-14 15:06 (172.16.140.6)
+2021ict50 pts/17       2025-03-14 15:06 (172.16.140.17)
+karthees pts/18       2025-03-14 15:23 (172.16.140.1)
+2021ict86 pts/19       2025-03-14 15:11 (172.16.140.27)
+2021ict26 pts/20       2025-03-14 15:06 (172.16.140.45)
+2021ict110 pts/21       2025-03-14 15:06 (172.16.140.5)
+2021ict35 pts/22       2025-03-14 15:06 (172.16.140.57)
+2021ict62 pts/23       2025-03-14 15:07 (172.16.140.54)
+2021ict57 pts/24       2025-03-14 15:07 (172.16.140.16)
+2021ict60 pts/25       2025-03-14 15:07 (172.16.140.55)
+2021ict48 pts/26       2025-03-14 15:07 (172.16.140.95)
+2021ict109 pts/27       2025-03-14 15:07 (172.16.140.40)
+2021ict33 pts/28       2025-03-14 15:07 (172.16.140.56)
+2021ict95 pts/29       2025-03-14 15:11 (172.16.140.3)
+2021ict56 pts/30       2025-03-14 15:08 (172.16.140.59)
+2021ict07 pts/31       2025-03-14 15:08 (172.16.140.98)
+2021ict32 pts/32       2025-03-14 15:08 (172.16.140.73)
+2021ict88 pts/33       2025-03-14 15:08 (172.16.140.67)
+2021ict80 pts/34       2025-03-14 15:08 (172.16.140.89)
+2021ict89 pts/35       2025-03-14 15:08 (172.16.140.60)
+2021ict85 pts/36       2025-03-14 15:08 (172.16.140.20)
+2021ict115 pts/37       2025-03-14 15:08 (172.16.140.75)
+2021ict97 pts/38       2025-03-14 15:09 (172.16.140.70)
+2021ict42 pts/39       2025-03-14 15:09 (172.16.140.96)
+2021ict30 pts/40       2025-03-14 15:23 (172.16.140.38)
+2021ict107 pts/41       2025-03-14 15:09 (172.16.140.23)
+2021ict123 pts/42       2025-03-14 15:09 (172.16.140.84)
+2021ict72 pts/43       2025-03-14 15:23 (172.16.140.22)
+2021ict121 pts/44       2025-03-14 15:09 (172.16.140.25)
+2021ict73 pts/45       2025-03-14 15:09 (172.16.140.69)
+2021ict06 pts/46       2025-03-14 15:09 (172.16.140.7)
+2021ict43 pts/47       2025-03-14 15:09 (172.16.140.2)
+2021ict102 pts/48       2025-03-14 15:09 (172.16.140.24)
+2021ict51 pts/49       2025-03-14 15:10 (172.16.140.26)
+2021ict28 pts/50       2025-03-14 15:10 (172.16.140.113)
+2021ict104 pts/52       2025-03-14 15:10 (172.16.140.14)
+2021ict17 pts/53       2025-03-14 15:10 (172.16.140.4)
+2021ict52 pts/54       2025-03-14 15:10 (172.16.140.72)
+2021ict46 pts/55       2025-03-14 15:10 (172.16.140.102)
+2021ict22 pts/56       2025-03-14 15:10 (172.16.140.85)
+2021ict40 pts/57       2025-03-14 15:10 (172.16.140.87)
+2021ict39 pts/58       2025-03-14 15:11 (172.16.140.65)
+2021ict108 pts/59       2025-03-14 15:11 (172.16.140.61)
+2021ict75 pts/60       2025-03-14 15:11 (172.16.140.79)
+2021ict106 pts/61       2025-03-14 15:11 (172.16.140.13)
+2021ict79 pts/62       2025-03-14 15:11 (172.16.140.86)
+2021ict49 pts/64       2025-03-14 15:11 (172.16.140.94)
+2021ict111 pts/65       2025-03-14 15:11 (172.16.140.99)
+2021ict41 pts/66       2025-03-14 15:11 (172.16.140.64)
+2021ict29 pts/67       2025-03-14 15:11 (172.16.140.48)
+2021ict81 pts/68       2025-03-14 15:11 (172.16.140.90)
+2021ict103 pts/70       2025-03-14 15:11 (172.16.140.12)
+2021ict92 pts/71       2025-03-14 15:11 (172.16.140.11)
+2021ict112 pts/73       2025-03-14 15:11 (172.16.140.78)
+2021ict91 pts/74       2025-03-14 15:11 (172.16.140.10)
+2021ict31 pts/75       2025-03-14 15:11 (172.16.140.88)
+2021ict74 pts/76       2025-03-14 15:14 (172.16.140.29)
+2021ict24 pts/77       2025-03-14 15:12 (172.16.140.39)
+2021ict76 pts/78       2025-03-14 15:12 (172.16.140.115)
+2021ict101 pts/79       2025-03-14 15:12 (172.16.140.33)
+2021ict90 pts/80       2025-03-14 15:12 (172.16.140.15)
+2021ict117 pts/82       2025-03-14 15:12 (172.16.140.31)
+2021ict98 pts/83       2025-03-14 15:12 (172.16.140.35)
+2021ict08 pts/84       2025-03-14 15:12 (172.16.140.52)
+2021ict100 pts/85       2025-03-14 15:12 (172.16.140.8)
+2021ict113 pts/86       2025-03-14 15:12 (172.16.140.37)
+2021ict11 pts/87       2025-03-14 15:12 (172.16.140.30)
+2021ict87 pts/89       2025-03-14 15:13 (172.16.140.28)
+2021ict66 pts/90       2025-03-14 15:13 (172.16.140.53)
+2021ict93 pts/92       2025-03-14 15:20 (172.16.140.19)
+[2021ict75@fedora ~]$ awk
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+POSIX options:          GNU long options: (standard)
+        -f progfile             --file=progfile
+        -F fs                   --field-separator=fs
+        -v var=val              --assign=var=val
+Short options:          GNU long options: (extensions)
+        -b                      --characters-as-bytes
+        -c                      --traditional
+        -C                      --copyright
+        -d[file]                --dump-variables[=file]
+        -D[file]                --debug[=file]
+        -e 'program-text'       --source='program-text'
+        -E file                 --exec=file
+        -g                      --gen-pot
+        -h                      --help
+        -i includefile          --include=includefile
+        -l library              --load=library
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -M                      --bignum
+        -N                      --use-lc-numeric
+        -n                      --non-decimal-data
+        -o[file]                --pretty-print[=file]
+        -O                      --optimize
+        -p[file]                --profile[=file]
+        -P                      --posix
+        -r                      --re-interval
+        -s                      --no-optimize
+        -S                      --sandbox
+        -t                      --lint-old
+        -V                      --version
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+Examples:
+        awk '{ sum += $1 }; END { print sum }' file
+        awk -F: '{ print $1 }' /etc/passwd
+[2021ict75@fedora ~]$ sed
+Usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
+
+  -n, --quiet, --silent
+                 suppress automatic printing of pattern space
+      --debug
+                 annotate program execution
+  -e script, --expression=script
+                 add the script to the commands to be executed
+  -f script-file, --file=script-file
+                 add the contents of script-file to the commands to be executed
+  --follow-symlinks
+                 follow symlinks when processing in place
+  -i[SUFFIX], --in-place[=SUFFIX]
+                 edit files in place (makes backup if SUFFIX supplied)
+  -c, --copy
+                 use copy instead of rename when shuffling files in -i mode
+  -b, --binary
+                 does nothing; for compatibility with WIN32/CYGWIN/MSDOS/EMX
+                 (open files in binary mode; CR+LF are not processed specially)
+  -l N, --line-length=N
+                 specify the desired line-wrap length for the `l' command
+  --posix
+                 disable all GNU extensions.
+  -E, -r, --regexp-extended
+                 use extended regular expressions in the script
+                 (for portability use POSIX -E).
+  -s, --separate
+                 consider files as separate rather than as a single,
+                 continuous long stream.
+      --sandbox
+                 operate in sandbox mode (disable e/r/w commands).
+  -u, --unbuffered
+                 load minimal amounts of data from the input files and flush
+                 the output buffers more often
+  -z, --null-data
+                 separate lines by NUL characters
+      --help     display this help and exit
+      --version  output version information and exit
+
+If no -e, --expression, -f, or --file option is given, then the first
+non-option argument is taken as the sed script to interpret.  All
+remaining arguments are names of input files; if no input files are
+specified, then the standard input is read.
+
+GNU sed home page: <https://www.gnu.org/software/sed/>.
+General help using GNU software: <https://www.gnu.org/gethelp/>.
+[2021ict75@fedora ~]$

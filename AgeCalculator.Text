@@ -1,0 +1,23 @@
+@echo off
+cls
+echo.
+
+:INPUT
+set /p "birthyear=Enter your Birthyear: " || goto INPUT
+
+
+for /f "skip=1 delims=" %%A in ('wmic os get localdatetime 2^>nul') do (
+    if not defined currentyear set "currentyear=%%A"
+)
+set "currentyear=%currentyear:~0,4%"
+
+
+if not defined currentyear (
+    for /f %%Y in ('powershell -command "(Get-Date).Year"') do set "currentyear=%%Y"
+)
+
+set /a age=%currentyear% - %birthyear%
+
+echo.
+echo You are %age% years old.
+pause
