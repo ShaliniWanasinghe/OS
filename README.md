@@ -1,11 +1,29 @@
-# Operating Systems 🖥️
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>Getting Device Date & Time</li>
+      <br>
+      <p>This is a simple Script that can display the User name,Windows Version & Current date and Time</p>
+      <p>The <b>set/p</b> commands allows the user to enter their age <br><br>
+      <img src="https://github.com/user-attachments/assets/4f91234c-6361-4fe7-a6fb-6367abfd5a9e"
+        </p>
+      <br><br>
+      <li>User Age Calculator </li>
+      <br>
+      <p>This is a active age calculator Script.this allow the user to enter their birth year and calculates the birth year using it<br><br>
+      <img src="https://github.com/user-attachments/assets/3e872db0-99dd-48f1-80d5-63c7de054333">
+      </p>
+        <br><br>
+    </ol>
+   
 
-![OS Illustration](https://github.com/user-attachments/assets/500e9021-cd1a-4f86-921c-4b6063d67c23)
+   
 
----
+  </body>
+</html>
 
-<div style="background: #f5f5f5; padding: 15px; border-left: 4px solid #0366d6; margin: 20px 0; border-radius: 4px;">
-  <strong>👨‍💻 Developer Notes:</strong><br>
-  This project explores fundamental operating system concepts i study in my University which include process scheduling, memory management, and file systems.
-</div>
 
