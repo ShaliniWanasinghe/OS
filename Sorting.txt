@@ -1,0 +1,19 @@
+
+1)	ls -a
+2)	vi data.csv
+3)	I + (type data) + ctrl  c + esc + (type-> :wq!)
+4)	ls -a
+5)	chmod  777 data.csv
+6)	./data.csv
+7)	more data.csv
+8)	wc -1 data.csv
+9)	head -1 data.csv
+10)	tail -2 data.csv
+11)	head -n7 data.csv |tail -n1
+12)	cut -d, -F3 data.csv
+13)	awk  -F, ‘{print  $3}’ data.csv
+14)	awk -F, ‘{print $2,  $3}’ data.csv
+15)	awk  -F, ‘{print  $4}’  data.csv | sort
+16)	sort -t’,’ -k4,4nr data.csv
+17)	sort -t’,’ -k4,4n data.csv
+18)	awk -F’,’{print NF;exist}’ data.csv
