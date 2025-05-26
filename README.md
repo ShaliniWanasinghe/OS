@@ -1,11 +1,34 @@
-# Operating Systems 🖥️
+<!DOCTYPE html>
+<html>
+<body>
+    <p>In C, processes are managed using <b>fork()</b>, which creates a new process <b>(child)</b> by duplicating the calling process <b>(parent)</b></p>
+<ol>
+<li> <b>PID (Process ID)</b> </li>
+     <br>
+     <p>Definition: A unique integer identifier assigned by the OS to each process.</p>
+     <br>
+         <b>How to Get It:</b>
+    
+<ul>
+      <li>getpid() → Returns the current process’s PID.</li><br>
+      <li>getppid() → Returns the parent’s PID.</li>
+  
+</ul>
+<br>
+<li> <b> Parent Process</b> </li><br>
+<p>Is the original process that creates one or more child processes using fork().</p>
 
-![OS Illustration](https://github.com/user-attachments/assets/500e9021-cd1a-4f86-921c-4b6063d67c23)
+<li> <b> Child Process</b> </li>
+<br>
+<p>A new process created by fork(). It runs concurrently with the parent.</p>
+     
+  </ol>
 
----
 
-<div style="background: #f5f5f5; padding: 15px; border-left: 4px solid #0366d6; margin: 20px 0; border-radius: 4px;">
-  <strong>👨‍💻 Developer Notes:</strong><br>
-  This project explores fundamental operating system concepts i study in my University which include process scheduling, memory management, and file systems.
-</div>
 
+<b>example output:</b>
+<p>This is a sample of an activity we tested to get calculations from parent and child processes separately tp check it's functionality</p><br>
+<img src="https://github.com/user-attachments/assets/6794e8bb-8f94-4b56-839b-42cddc2eb84f">
+
+</body>
+</html>
