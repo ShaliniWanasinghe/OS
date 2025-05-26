@@ -1,11 +1,29 @@
-# Operating Systems 🖥️
+# Process Concepts in C: PID,Parent and Child 🖥️
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>In C, processes are managed using <b>fork()<b>, which creates a new process <b>(child)<b> by duplicating the calling process <b>(parent)<b></p>
+1. PID (Process ID)
+Definition: A unique integer identifier assigned by the OS to each process.
 
-![OS Illustration](https://github.com/user-attachments/assets/500e9021-cd1a-4f86-921c-4b6063d67c23)
+How to Get It:
+getpid() → Returns the current process’s PID.
+getppid() → Returns the parent’s PID.
 
----
+2. Parent Process
+Is the original process that creates one or more child processes using fork().
 
-<div style="background: #f5f5f5; padding: 15px; border-left: 4px solid #0366d6; margin: 20px 0; border-radius: 4px;">
-  <strong>👨‍💻 Developer Notes:</strong><br>
-  This project explores fundamental operating system concepts i study in my University which include process scheduling, memory management, and file systems.
-</div>
+4. Child Process
+A new process created by fork(). It runs concurrently with the parent.
+
+<b>example</b>
+<p>this exercise is created to get the factorial and Fibonnaci series by the child processes of same parent</p>
+<img src="https://github.com/user-attachments/assets/23ed5907-a003-43b5-b64b-1c7cf3518bb4">
+<br><br>
+
+      
+  </body>
+</html>
+
+
 
