@@ -12,7 +12,7 @@
 	
 	
 	--code-----
-	
+Example 1:	
 	#include<stdio.h>
 	int main()
 	{
@@ -83,7 +83,7 @@ switch(variable/expression){
 	//body of default
 }
 
-example 1: Enter the value between 1 to 7  and create a program for following output:
+example 3: Enter the value between 1 to 7  and create a program for following output:
 enter the number between 1 to 7 : 1
 Today is Sunday!
 
@@ -143,7 +143,7 @@ Today is Sunday
 
 
 
-example 2:
+example 4:
 Write a code for small astrology based on your life path number for that get date of birth
 from user then calculate lufe path number.(use switch case)
 
@@ -285,7 +285,7 @@ Enter your Birthday: 12
 Strange!
 
 --------------------------------------------------------------
-Example 3:
+Example 5:
 Give list of numbers then calculate the summation and multiplication using for loop.
 Example:- 1 2 3 4 5
 summation =15
@@ -319,7 +319,7 @@ Summation is: 15
 Multiplication is: 25
 
 -----------------------------------------------------------------
-Example 4:
+Example 6:
 Print the integers from 1 to 10 using while loop.
 
 ##Code##
@@ -350,7 +350,7 @@ int main() {
 10
 ----------------------------------------------------------------
 
-Example 5:
+Example 7:
 Write a C program to generate  and print the Fibinnaci series up to a specified number of terms.
 The program should take the number of terms as input from the user and then display the corresponding Fibonnaci sequence
 
@@ -383,7 +383,7 @@ Enter the number of terms: 7
 Fibonacci Series: 0 1 1 2 3 5 8
 
 ----------------------------------------------------------------
-Example 6:
+Example 8:
 Write a C program to calculate the factorial of a given non-negative integer.
 
 ##Code##
@@ -418,7 +418,7 @@ Factorial of 5 = 120
 
 -----------------------------------------------------------------
 
-Example 7:
+Example 9:
 Write a C program that:
 Accepts two strings as input from the user.
 Concatenates the two strings Displays the concatenated result.
@@ -458,7 +458,7 @@ Enter the second string: World
 Concatenated string: HelloWorld
 
 ----------------------------------------------------------------- 
-Example 8:
+Example 10:
 Write  a C program that takes a binary number(as an integer) as input and converts it to its decimal equivalent
 
 ##Code##
@@ -492,7 +492,7 @@ Decimal equivalent: 11
 
 -------------------------------------------------------------------------------
 
-Example 9:
+Example 11:
 Write a C program that 
 Accepts an array of integers from the user,
 Finds and  display the max and min values in the array
@@ -543,7 +543,7 @@ Minimum value: 3
 
 
 -------------------------------------------------------------------------------
-Example 10:
+Example 12:
 C program to generate Pascal's Triange
  output:
  
