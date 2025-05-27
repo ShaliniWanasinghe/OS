@@ -1,22 +1,9 @@
-➤ Question 01
+#Command promt operations- Incourse assesssement 2
 
-Using Command Prompt on a Windows system, write the exact commands to complete the following tasks:
+<p>I have uploaded the questions as IT2244 ICA pdf and plesae refer the questions before testing the answers codes, the data i used is also added as a csv file for your reference.</p>
 
-• Create New directories named CSC2244 , Marks and Exam on your Desktop.
-
-• Inside the CSC2244 directory, create three subdirectories named practical, theory, and exam papers.
-
-• Inside each subdirectories, create a text file, a Word document, and a PowerPoint document
-
-respectively
-
-Eg:
-
-Practical → text file, Word document, PowerPoint document
-
-• Create two new excel files in desktop named Icae into the directory Marks and Final Exam Marks and move that files.
-
-• Copy the Directory Marks into the Exam directory and hide the Exam directory.
+<p>for the 2nd question when we run the query in putty command window we get the answer straightly</p><br><br.
+<b>Outputs</b>
 
 
 ![SS1](https://github.com/user-attachments/assets/33b0048e-c7e3-4106-8784-fd932abe2447)
@@ -32,31 +19,7 @@ Practical → text file, Word document, PowerPoint document
 
 
 
-➤ Question 02
-
-Using the data.csv file in your shared drive Do the Questions Given Below.
-
--> Filter the rows where the GPA greater than 3.5
-
--> Calculate the average GPA of all Students.
+![image](https://github.com/user-attachments/assets/ffe98808-29a7-4e85-968b-59e4e154304d)
 
 
 
-
-➤ Question 03
-
-Read two Strings from user String
-
-Count the characters of each String and print the lengthy String as shown in the Expected output
-
-Expected output :
-
-Enter String_1
-
-Apple
-
-Enter String_2
-
-Banana
-
-Banana is larger than Apple
