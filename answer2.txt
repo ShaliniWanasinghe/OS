@@ -1,0 +1,8 @@
+
+
+echo "Students with GPA > 3.5:"
+awk -F',' 'NR>1 && $4 > 3.5 {print $0}' data.csv
+
+echo
+echo -n "Average GPA: "
+awk -F',' 'NR>1 {sum+=$4; count++} END {if (count>0) print sum/count; else print "N/A"}' data.csv

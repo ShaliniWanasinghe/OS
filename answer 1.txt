@@ -1,0 +1,42 @@
+##answer 1
+
+:: Create directories on Desktop
+cd %USERPROFILE%\Desktop
+mkdir CSC2244 Marks Exam
+
+:: Create subdirectories in CSC2244
+cd CSC2244
+mkdir practical theory "exam papers"
+
+:: Create files in each subdirectory
+cd practical
+echo. > practical.txt
+echo. > practical.docx
+echo. > practical.pptx
+cd ..
+
+cd theory
+echo. > theory.txt
+echo. > theory.docx
+echo. > theory.pptx
+cd ..
+
+cd "exam papers"
+echo. > exam.txt
+echo. > exam.docx
+echo. > exam.pptx
+cd %USERPROFILE%\Desktop
+
+:: Create Excel files on Desktop
+echo. > "Icae Marks.xlsx"
+echo. > "Final Exam Marks.xlsx"
+
+:: Move Excel files to Marks folder
+move "Icae Marks.xlsx" Marks
+move "Final Exam Marks.xlsx" Marks
+
+:: Copy Marks folder into Exam
+xcopy /E /I Marks Exam\Marks
+
+:: Hide the Exam directory
+attrib +h Exam
