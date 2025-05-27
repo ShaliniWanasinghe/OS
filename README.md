@@ -1,11 +1,17 @@
-# Operating Systems 🖥️
+# Parent and Child Processes handling with Fork()
 
-![OS Illustration](https://github.com/user-attachments/assets/500e9021-cd1a-4f86-921c-4b6063d67c23)
+<p>Using the fork() we can duplicate the main process so the original processes is refeeresd as Parent process and the duplicate process as child process</p>
+<p>In the fork.c file above i have updated the codes and outputs separately as text and nelow is the visible output screen shots</p>
+<ul>
+   <li>First code check how the functioning of fork to get the child process</li><br>
 
----
+  ![2](https://github.com/user-attachments/assets/98067ae4-fb4c-4252-9f92-70ad27b5e225)
 
-<div style="background: #f5f5f5; padding: 15px; border-left: 4px solid #0366d6; margin: 20px 0; border-radius: 4px;">
-  <strong>👨‍💻 Developer Notes:</strong><br>
-  This project explores fundamental operating system concepts i study in my University which include process scheduling, memory management, and file systems.
-</div>
+  
+  <li>second code checks the fork proceeses work, with how they appear with IDs</li><br>
+
+  ![1](https://github.com/user-attachments/assets/c9d434dd-bb72-48a0-b03f-89d416ae11fe)
+
+ 
+</ul>
 
