@@ -1,0 +1,20 @@
+Q1.Get the calander and the date
+Q2.Get the student name and marks for the 3 subjects from user then calculate the "Total" and "average"
+
+output-----
+    Enter Name: Isuru
+    Enter the mark for subject1: 80
+    Enter the mark for subject2: 90
+    Enter the mark for subject3: 70
+    Total = 240
+    Average = 80
+
+Q3.create calculator with arithmatic operators.
+
+    output--
+        Enter the first number: 4
+        Enter the second number: 2
+        Summation: 6
+        Substraction: 2
+        Division: 2
+        Multiplication: 8
