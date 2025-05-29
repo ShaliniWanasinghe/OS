@@ -1,0 +1,34 @@
+#!/bin/bash
+
+echo "Enter 3 numbers:"
+read a b c
+
+# Function to calculate GCD
+gcd() {
+    x=$1
+    y=$2
+    while [ $y -ne 0 ]; do
+        temp=$y
+        y=$((x % y))
+        x=$temp
+    done
+    echo $x
+}
+
+# Function to calculate LCM
+lcm() {
+    x=$1
+    y=$2
+    gcd_val=$(gcd $x $y)
+    lcm_val=$(( (x * y) / gcd_val ))
+    echo $lcm_val
+}
+
+# Get GCD of first two numbers
+gcd_result=$(gcd $a $b)
+
+# Get LCM of last two numbers
+lcm_result=$(lcm $b $c)
+
+echo "GCD of $a and $b = $gcd_result"
+echo "LCM of $b and $c = $lcm_result"
