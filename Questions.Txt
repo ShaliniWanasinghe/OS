@@ -1,0 +1,60 @@
+Q1
+@echo off
+setlocal enabledelayedexpansion
+
+echo Enter the Number:
+set /p num=
+
+set factorial=1
+
+for /l %%i in (1,1,%num%) do (
+    set /a factorial=!factorial! * %%i
+)
+
+echo Factorial of "%num%" is: !factorial!
+pause
+
+
+
+Q2
+
+@echo off
+setlocal enabledelayedexpansion
+
+echo Enter the Number:
+set /p num=
+
+for /l %%i in (1,1,12) do (
+    set /a result=!num! * %%i
+    echo !num! x %%i = !result!
+)
+
+pause
+
+
+
+Q3
+@echo off
+setlocal enabledelayedexpansion
+
+echo Enter the Number:
+set /p num=
+
+set a=0
+set b=1
+
+echo %a%
+if %num% GTR 1 echo %b%
+
+for /l %%i in (2,1,%num%) do (
+    set /a temp=!a! + !b!
+    echo !temp!
+    set a=!b!
+    set b=!temp!
+)
+
+pause
+
+
+
+
