@@ -1,24 +1,4 @@
 
-<!DOCTYPE html>
-<html>
-<b>Q1</b>
-Write a code to run in Putty for small astrology based on your life path number for that get date of birth from user then calculate life path number:-
-(use switch case)
-example:-
-    Date = 23
-
-    calculate the Life path number:
-        a=date%10   3
-        b=date/10   2
-        c=a+b       5
-
-if life path number:
-    1:Lucky
-    2:Carefully Do your work
-    3:Strange
-    4:Happy
-    5:Can get help
-    6:Doubt
     7:Sad
     8:Like
     9:Courage
