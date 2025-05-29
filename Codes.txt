@@ -1,0 +1,147 @@
+Q1
+
+@echo off
+setlocal EnableDelayedExpansion
+cls
+echo Enter your birth date (Only day as a number 1-31):
+set /p date=
+
+set /a a=%date% %% 10
+set /a b=%date% / 10
+set /a c=%a% + %b%
+
+echo Life Path Number: %c%
+
+goto LPN%c%
+
+:LPN1
+echo 1: Lucky
+goto END
+
+:LPN2
+echo 2: Carefully Do your work
+goto END
+
+:LPN3
+echo 3: Strange
+goto END
+
+:LPN4
+echo 4: Happy
+goto END
+
+:LPN5
+echo 5: Can get help
+goto END
+
+:LPN6
+echo 6: Doubt
+goto END
+
+:LPN7
+echo 7: Sad
+goto END
+
+:LPN8
+echo 8: Like
+goto END
+
+:LPN9
+echo 9: Courage
+goto END
+
+:END
+pause
+
+
+Q2
+
+@echo off
+setlocal EnableDelayedExpansion
+cls
+echo Enter numbers separated by space:
+set /p input=
+
+set sum=0
+set mul=1
+
+for %%a in (%input%) do (
+    set /a sum+=%%a
+    set /a mul*=%%a
+)
+
+echo Summation = %sum%
+echo Multiplication = %mul%
+pause
+
+
+Q3
+
+@echo off
+setlocal EnableDelayedExpansion
+set i=1
+:LOOP
+if %i% leq 10 (
+    echo %i%
+    set /a i+=1
+    goto LOOP
+)
+pause
+
+
+Q3
+
+i)
+@echo off
+setlocal EnableDelayedExpansion
+for /L %%i in (1,1,7) do (
+    set line=
+    for /L %%j in (1,1,%%i) do set line=!line!* 
+    echo !line!
+)
+pause
+
+
+ii)
+@echo off
+setlocal EnableDelayedExpansion
+for /L %%i in (7,-1,1) do (
+    set line=
+    for /L %%j in (1,1,%%i) do set line=!line!* 
+    echo !line!
+)
+pause
+
+
+iii)
+@echo off
+setlocal EnableDelayedExpansion
+for /L %%i in (1,1,6) do (
+    set line=
+    for /L %%j in (1,1,%%i) do set line=!line!%%i 
+    echo !line!
+)
+pause
+
+
+iv)
+@echo off
+setlocal EnableDelayedExpansion
+for /L %%i in (1,1,6) do (
+    set line=
+    for /L %%j in (1,1,%%i) do set line=!line!%%j 
+    echo !line!
+)
+pause
+
+v)
+@echo off
+setlocal EnableDelayedExpansion
+set rows=5
+for /L %%i in (1,1,%rows%) do (
+    set line=
+    for /L %%s in (%%i,1,%rows%) do set line=!line! 
+    for /L %%j in (1,1,%%i) do set line=!line!* 
+    echo !line!
+)
+pause
