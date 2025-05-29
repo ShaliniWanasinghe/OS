@@ -1,11 +1,9 @@
-# Operating Systems 🖥️
+i have added the Questions and Codes files with answers in the files here below are the Outputs visible when you run in the Putty
 
-![OS Illustration](https://github.com/user-attachments/assets/500e9021-cd1a-4f86-921c-4b6063d67c23)
+![Screenshot 2025-05-29 153040](https://github.com/user-attachments/assets/d66a31bf-b912-4568-95c4-c26389cb1424)
 
----
+![Screenshot 2025-05-29 154127](https://github.com/user-attachments/assets/bef850d6-2c19-4f4b-a5f1-7743983652bb)
 
-<div style="background: #f5f5f5; padding: 15px; border-left: 4px solid #0366d6; margin: 20px 0; border-radius: 4px;">
-  <strong>👨‍💻 Developer Notes:</strong><br>
-  This project explores fundamental operating system concepts i study in my University which include process scheduling, memory management, and file systems.
-</div>
+![Screenshot 2025-05-29 153020](https://github.com/user-attachments/assets/ff0e6eeb-3e3f-4829-824a-1119d63da52f)
 
+![Screenshot 2025-05-29 153722](https://github.com/user-attachments/assets/c45f6156-ae86-40e8-9b14-1145bb7ff713)
