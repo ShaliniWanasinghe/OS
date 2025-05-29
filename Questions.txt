@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<b>Q1</b>
+Write a code to run in Putty for small astrology based on your life path number for that get date of birth from user then calculate life path number:-
+(use switch case)
+example:-
+    Date = 23
+
+    calculate the Life path number:
+        a=date%10   3
+        b=date/10   2
+        c=a+b       5
+
+if life path number:
+    1:Lucky
+    2:Carefully Do your work
+    3:Strange
+    4:Happy
+    5:Can get help
+    6:Doubt
+    7:Sad
+    8:Like
+    9:Courage
+
+Q2
+Give list of numbers then cakculate the summation and multiplication using for loop
+Example:-
+1 2 3 4 5
+    summation = 15
+    multiplication =120
+
+Q3
+Prinnt the integers from 1:10 using while loop
+
+Q4
+Print below pattern using nested loop columns
+columns =7 rows 7
+
+i) 
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * * * *
+* * * * * * *
+
+ii)
+* * * * * * *
+* * * * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+
+iii)
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5 
+6 6 6 6 6 6
+
+iv)
+1
+1 2
+1 2 3 
+1 2 3 4
+1 2 3 4 5 
+1 2 3 4 5 6
+
+v)
+        
+         *
+        * *
+       * * *
+      * * * *
+     * * * * *   
+
+</html>
