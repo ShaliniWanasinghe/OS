@@ -1,11 +1,32 @@
-# Operating Systems 🖥️
+# batch file operations
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+  <p>Here, i have added 3 examples Questions that handled user inputs to make simple outputs.
+  I have used <h5><b> setlocal enabledelayedexpansion,</b> </h5>to allow variables to be updated within loops and conditional statements.</p>
 
-![OS Illustration](https://github.com/user-attachments/assets/500e9021-cd1a-4f86-921c-4b6063d67c23)
+<ol>
+  <li></li>
+  <img src="https://github.com/user-attachments/assets/c2ea0f8b-4616-4f8b-870c-09f0a20e5cf0 "><br>
 
----
+  <li></li>
+  <img src=" https://github.com/user-attachments/assets/4a643f72-7e0b-4de5-8dbf-1ccea4579ab9"><br>
 
-<div style="background: #f5f5f5; padding: 15px; border-left: 4px solid #0366d6; margin: 20px 0; border-radius: 4px;">
-  <strong>👨‍💻 Developer Notes:</strong><br>
-  This project explores fundamental operating system concepts i study in my University which include process scheduling, memory management, and file systems.
+  
+  <li></li>
+  <img src="https://github.com/user-attachments/assets/376dcdcb-4de7-4bfb-8b73-1a64f8f08a84 "><br>
+
+</ol>
+    
 </div>
+
+
+
+  
+</body>
+</html>
+
+
+
 
