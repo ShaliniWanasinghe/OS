@@ -1,11 +1,7 @@
-# Operating Systems 🖥️
+# Message handling with fork()
 
-![OS Illustration](https://github.com/user-attachments/assets/500e9021-cd1a-4f86-921c-4b6063d67c23)
+![1](https://github.com/user-attachments/assets/8170fd69-c9db-422a-999e-eea856753490)
 
----
+![2 ](https://github.com/user-attachments/assets/6cf3e0f0-f80c-4ee6-a720-0e6e60efd589)
 
-<div style="background: #f5f5f5; padding: 15px; border-left: 4px solid #0366d6; margin: 20px 0; border-radius: 4px;">
-  <strong>👨‍💻 Developer Notes:</strong><br>
-  This project explores fundamental operating system concepts i study in my University which include process scheduling, memory management, and file systems.
-</div>
-
+![exercise](https://github.com/user-attachments/assets/7662ceed-e28f-4e06-a75b-931336fcd9d8)
