@@ -1,4 +1,4 @@
-
+Here the code is written to Get the Message and Receive the Messsage in the Same code , by Parent and Chold Processes using fork()
 
 ![1](https://github.com/user-attachments/assets/74c69c37-46c4-454e-aad0-31a60e6f3c6f)
 
