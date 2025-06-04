@@ -1,11 +1,15 @@
-# Operating Systems 🖥️
 
-![OS Illustration](https://github.com/user-attachments/assets/500e9021-cd1a-4f86-921c-4b6063d67c23)
 
----
+![1](https://github.com/user-attachments/assets/74c69c37-46c4-454e-aad0-31a60e6f3c6f)
 
-<div style="background: #f5f5f5; padding: 15px; border-left: 4px solid #0366d6; margin: 20px 0; border-radius: 4px;">
-  <strong>👨‍💻 Developer Notes:</strong><br>
-  This project explores fundamental operating system concepts i study in my University which include process scheduling, memory management, and file systems.
-</div>
 
+![2](https://github.com/user-attachments/assets/92d436e5-7594-40ce-adf1-22201fb47c90)
+
+
+![3](https://github.com/user-attachments/assets/da57d03e-dd78-4c75-b907-86492b66151d)
+
+
+![4](https://github.com/user-attachments/assets/38b78af0-1ffc-4841-adb0-7eced5d29d89)
+
+
+![5ac](https://github.com/user-attachments/assets/26391979-881e-41bd-989e-c0a4f9c21b75)
