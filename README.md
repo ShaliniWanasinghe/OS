@@ -1,7 +1,32 @@
-Here the code is written to Get the Message and Receive the Messsage in the Same code , by Parent and Chold Processes using fork()
+# Message Queue IPC using Parent-Child Processes (System V)
 
-![1](https://github.com/user-attachments/assets/74c69c37-46c4-454e-aad0-31a60e6f3c6f)
+This project implements inter-process communication (IPC) using System V message queues, where a **child process sends** a message and the **parent process receives** it. Although a unique key and a temporary directory are used, interference can still occur due to the shared nature of the lab server.
 
+## ⚙️ Environment
+
+- **Linux** (`r800` University Server)
+- **Putty Terminal Access**
+- **System V Message Queues**
+- **C Language**
+
+## 🧠 Core Concept
+
+- This program uses `fork()` to create a child process.
+- The child sends a message using `msgsnd()`.
+- The parent receives it using `msgrcv()`.
+
+### 🔐 Isolation Attempt
+
+- A temporary directory (`/tmp/ipcdir`) and a file (`keyfile`) are used to generate a **unique key** using `ftok()`.
+- However, **due to a shared kernel message queue system** on the server, messages from other students/processes may still interfere — even if the key is unique — if the queue already exists with the same ID.
+
+## 📁 Files
+
+```bash
+.
+├── parent_child_ipc.c  # Single file with both sender (child) and receiver (parent)
+└── /tmp/ipcdir/keyfile # Used for key generation
+```
 
 ![2](https://github.com/user-attachments/assets/92d436e5-7594-40ce-adf1-22201fb47c90)
 
