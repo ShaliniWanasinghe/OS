@@ -1,0 +1,105 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+
+int main() {
+    int a, b;
+    int pipefd1[2], pipefd2[2];
+
+   
+    pipe(pipefd1); // B -> C
+    pipe(pipefd2); // C -> Parent
+
+    pid_t pidB = fork();
+
+    if (pidB == 0) {
+       
+        printf("Hello, I am Child B \n");
+        printf(" my id is %d\n", getpid());
+       
+        printf("Enter two integers: ");
+        scanf("%d %d", &a, &b);
+
+       
+        close(pipefd1[0]); 
+        write(pipefd1[1], &a, sizeof(int));
+        write(pipefd1[1], &b, sizeof(int));
+        close(pipefd1[1]);
+
+        exit(0);
+    }
+
+    pid_t pidC = fork();
+
+    if (pidC == 0) {
+       
+	   printf(" ");
+        printf("Hello, I am Child C");
+		printf("my id is %d\n", getpid());
+
+       
+        close(pipefd1[1]); 
+        read(pipefd1[0], &a, sizeof(int));
+        read(pipefd1[0], &b, sizeof(int));
+        close(pipefd1[0]);
+
+        
+        int sum = a + b;
+        int diff = a - b;
+        int prod = a * b;
+        float quot = (b != 0) ? (float)a / b : 0;
+
+      
+        close(pipefd2[0]); 
+        write(pipefd2[1], &sum, sizeof(int));
+        write(pipefd2[1], &diff, sizeof(int));
+        write(pipefd2[1], &prod, sizeof(int));
+        write(pipefd2[1], &quot, sizeof(float));
+        close(pipefd2[1]);
+
+        exit(0);
+    }
+
+
+    wait(NULL); 
+    wait(NULL);
+
+    int sum, diff, prod;
+    float quot;
+
+  
+    close(pipefd2[1]); 
+    read(pipefd2[0], &sum, sizeof(int));
+    read(pipefd2[0], &diff, sizeof(int));
+    read(pipefd2[0], &prod, sizeof(int));
+    read(pipefd2[0], &quot, sizeof(float));
+    close(pipefd2[0]);
+
+    printf("\nResults in Parent (PID %d) \n", getpid());
+    printf("Sum        : %d\n", sum);
+    printf("Difference : %d\n", diff);
+    printf("Product    : %d\n", prod);
+    printf("Quotient   : %.2f\n", quot);
+
+    return 0;
+}
+
+------------------output
+[2021ict75@fedora rev_exercise]$ vi fork.c
+[2021ict75@fedora rev_exercise]$ gcc fork.c -o fork
+[2021ict75@fedora rev_exercise]$ ./fork
+Hello, I am Child B
+ my id is 14437
+Enter two integers:  2
+7
+Hello, I am Child C
+ my id is 14445
+
+Results in Parent (PID 14436)
+Sum        : 9
+Difference : -5
+Product    : 14
+Quotient   : 0.29
+
+
